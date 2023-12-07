@@ -34,7 +34,7 @@ CREATE OR ALTER VIEW "Product Information" AS (
 		LEFT JOIN Production.ProductSubcategory psc ON p.ProductSubcategoryID = psc.ProductSubcategoryID
 		LEFT JOIN Production.ProductCategory pc ON pc.ProductCategoryID = psc.ProductCategoryID
 		LEFT JOIN Production.ProductReview pr ON p.ProductID = pr.ProductID
-		LEFT JOIN Production.ProductInventory piv ON p.ProductID = p.ProductID
+		LEFT JOIN Production.ProductInventory piv ON p.ProductID = piv.ProductID
 		JOIN Production.Location l ON piv.LocationID = l.LocationID
 
 )
