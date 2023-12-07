@@ -20,10 +20,10 @@ CREATE OR ALTER VIEW "Product Information" AS (
 		CASE 
 			WHEN 
 				p.ListPrice < 1000
-				THEN 'Cheaper'
+				THEN 'Cheap'
 			WHEN 
 				p.ListPrice BETWEEN 1000 AND 1999
-				THEN 'Expensive'
+				THEN 'Mid-Range'
 			WHEN 
 				p.ListPrice > 2000
 				THEN 'Very Expensive'
