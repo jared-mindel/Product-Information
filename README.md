@@ -1,4 +1,4 @@
-# Product-Information #
+# Product Information #
 This Power BI report exemplifies my proficiency as a Power BI report developer and SQL coder. The SQL code for view creation is accessible in the 
 [Product Information View](https://github.com/jared-mindel/Product-Information/blob/main/Product%20Information%20View.sql) file. Additionally, the PBIX file containing all visuals and DAX formulas can be found in the  [Product Information](https://github.com/jared-mindel/Product-Information/blob/main/Product%20Information.pbix) file. For the sake of efficiency, code blocks and images are included directly in this README.
 
